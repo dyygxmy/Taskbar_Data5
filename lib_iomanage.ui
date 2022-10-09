@@ -1,0 +1,965 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>lib_IOManage</class>
+ <widget class="QWidget" name="lib_IOManage">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>700</width>
+    <height>500</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#lib_IOManage{background-color: rgb(248, 248, 255);}</string>
+  </property>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>40</y>
+     <width>600</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#groupBox{
+	font: 14pt &quot;黑体&quot;;
+border-width:1px; 
+border-style:solid; 
+border-color:rgb(51, 153, 255); 
+margin-top: 0ex;
+}</string>
+   </property>
+   <property name="title">
+    <string>cp2112</string>
+   </property>
+   <widget class="QPushButton" name="but_OUT5">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>40</y>
+      <width>80</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 14pt &quot;Arial&quot;;
+border-image: url(:/prefix2/LCD_CS351/35_all/69.bmp);
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>OUT5</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="but_OUT1">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>40</y>
+      <width>80</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 14pt &quot;Arial&quot;;
+border-image: url(:/prefix2/LCD_CS351/35_all/69.bmp);
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>OUT1</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="but_OUT2">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>40</y>
+      <width>80</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 14pt &quot;Arial&quot;;
+border-image: url(:/prefix2/LCD_CS351/35_all/69.bmp);
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>OUT2</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="but_OUT0">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>40</y>
+      <width>80</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 14pt &quot;Arial&quot;;
+border-image: url(:/prefix2/LCD_CS351/35_all/69.bmp);
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>OUT0</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="but_OUT3">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>40</y>
+      <width>80</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 14pt &quot;Arial&quot;;
+border-image: url(:/prefix2/LCD_CS351/35_all/69.bmp);
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>OUT3</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="but_OUT4">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>40</y>
+      <width>80</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 14pt &quot;Arial&quot;;
+border-image: url(:/prefix2/LCD_CS351/35_all/69.bmp);
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>OUT4</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="but_OUT7">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>90</y>
+      <width>80</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 14pt &quot;Arial&quot;;
+border-image: url(:/prefix2/LCD_CS351/35_all/69.bmp);
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>OUT7</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="but_OUT6">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>90</y>
+      <width>80</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 14pt &quot;Arial&quot;;
+border-image: url(:/prefix2/LCD_CS351/35_all/69.bmp);
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>OUT6</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_10">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>90</y>
+      <width>80</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 14pt &quot;Arial&quot;;
+border-image: url(:/prefix2/LCD_CS351/35_all/69.bmp);
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>备用</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_12">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>90</y>
+      <width>80</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 14pt &quot;Arial&quot;;
+border-image: url(:/prefix2/LCD_CS351/35_all/69.bmp);
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>备用</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_20">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>90</y>
+      <width>80</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 14pt &quot;Arial&quot;;
+border-image: url(:/prefix2/LCD_CS351/35_all/69.bmp);
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>备用</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="but_VOLTAGE">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>90</y>
+      <width>80</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 14pt &quot;Arial&quot;;
+border-image: url(:/prefix2/LCD_CS351/35_all/69.bmp);
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>VOL</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QGroupBox" name="groupBox_2">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>190</y>
+     <width>600</width>
+     <height>131</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#groupBox_2{
+	font: 14pt &quot;黑体&quot;;
+border-width:1px; 
+border-style:solid; 
+border-color:rgb(51, 153, 255); 
+margin-top: 0ex;
+}</string>
+   </property>
+   <property name="title">
+    <string>板内IO</string>
+   </property>
+   <widget class="QPushButton" name="but_IN1">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>40</y>
+      <width>80</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 14pt &quot;Arial&quot;;
+border-image: url(:/prefix2/LCD_CS351/35_all/69.bmp);
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>IN1</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="but_IN2">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>40</y>
+      <width>80</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 14pt &quot;Arial&quot;;
+border-image: url(:/prefix2/LCD_CS351/35_all/69.bmp);
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>IN2</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="but_IN0">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>90</y>
+      <width>80</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 14pt &quot;Arial&quot;;
+border-image: url(:/prefix2/LCD_CS351/35_all/69.bmp);
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>IN0</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_16">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>40</y>
+      <width>80</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 14pt &quot;Arial&quot;;
+border-image: url(:/prefix2/LCD_CS351/35_all/69.bmp);
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>备用</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="but_IN3">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>40</y>
+      <width>80</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 14pt &quot;Arial&quot;;
+border-image: url(:/prefix2/LCD_CS351/35_all/69.bmp);
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>IN3</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="but_IN4">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>40</y>
+      <width>80</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 14pt &quot;Arial&quot;;
+border-image: url(:/prefix2/LCD_CS351/35_all/69.bmp);
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>IN4</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="but_POWER">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>90</y>
+      <width>80</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 14pt &quot;Arial&quot;;
+border-image: url(:/prefix2/LCD_CS351/35_all/69.bmp);
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>POWER</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_22">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>90</y>
+      <width>80</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 14pt &quot;Arial&quot;;
+border-image: url(:/prefix2/LCD_CS351/35_all/69.bmp);
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>备用</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_23">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>40</y>
+      <width>80</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 14pt &quot;Arial&quot;;
+border-image: url(:/prefix2/LCD_CS351/35_all/69.bmp);
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>备用</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_24">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>90</y>
+      <width>80</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 14pt &quot;Arial&quot;;
+border-image: url(:/prefix2/LCD_CS351/35_all/69.bmp);
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>备用</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="but_COM0">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>90</y>
+      <width>80</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 14pt &quot;Arial&quot;;
+border-image: url(:/prefix2/LCD_CS351/35_all/69.bmp);
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>COM0</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="but_COM1">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>90</y>
+      <width>80</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 14pt &quot;Arial&quot;;
+border-image: url(:/prefix2/LCD_CS351/35_all/69.bmp);
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>COM1</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="gpio_allValue">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>0</y>
+      <width>181</width>
+      <height>26</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QGroupBox" name="groupBox_3">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>330</y>
+     <width>600</width>
+     <height>131</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#groupBox_3{
+	font: 14pt &quot;黑体&quot;;
+border-width:1px; 
+border-style:solid; 
+border-color:rgb(51, 153, 255); 
+margin-top: 0ex;
+}</string>
+   </property>
+   <property name="title">
+    <string>远程IO</string>
+   </property>
+   <widget class="QPushButton" name="but_UP0">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>40</y>
+      <width>65</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 14pt &quot;Arial&quot;;
+border-image: url(:/prefix2/LCD_CS351/35_all/69.bmp);
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>IN/OUT</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="but_UP1">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>40</y>
+      <width>65</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 14pt &quot;Arial&quot;;
+border-image: url(:/prefix2/LCD_CS351/35_all/69.bmp);
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>IN/OUT</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="but_DOWN0">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>90</y>
+      <width>65</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 14pt &quot;Arial&quot;;
+border-image: url(:/prefix2/LCD_CS351/35_all/69.bmp);
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>IN/OUT</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="but_UP5">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>40</y>
+      <width>65</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 14pt &quot;Arial&quot;;
+border-image: url(:/prefix2/LCD_CS351/35_all/69.bmp);
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>IN/OUT</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="but_UP2">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>40</y>
+      <width>65</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 14pt &quot;Arial&quot;;
+border-image: url(:/prefix2/LCD_CS351/35_all/69.bmp);
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>IN/OUT</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="but_UP3">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>40</y>
+      <width>65</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 14pt &quot;Arial&quot;;
+border-image: url(:/prefix2/LCD_CS351/35_all/69.bmp);
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>IN/OUT</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="but_DOWN3">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>90</y>
+      <width>65</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 14pt &quot;Arial&quot;;
+border-image: url(:/prefix2/LCD_CS351/35_all/69.bmp);
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>IN/OUT</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="but_DOWN5">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>90</y>
+      <width>65</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 14pt &quot;Arial&quot;;
+border-image: url(:/prefix2/LCD_CS351/35_all/69.bmp);
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>IN/OUT</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="but_UP4">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>40</y>
+      <width>65</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 14pt &quot;Arial&quot;;
+border-image: url(:/prefix2/LCD_CS351/35_all/69.bmp);
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>IN/OUT</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="but_DOWN4">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>90</y>
+      <width>65</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 14pt &quot;Arial&quot;;
+border-image: url(:/prefix2/LCD_CS351/35_all/69.bmp);
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>IN/OUT</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="but_DOWN2">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>90</y>
+      <width>65</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 14pt &quot;Arial&quot;;
+border-image: url(:/prefix2/LCD_CS351/35_all/69.bmp);
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>IN/OUT</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="but_DOWN1">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>90</y>
+      <width>65</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 14pt &quot;Arial&quot;;
+border-image: url(:/prefix2/LCD_CS351/35_all/69.bmp);
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>IN/OUT</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="but_UP6">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>40</y>
+      <width>65</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 14pt &quot;Arial&quot;;
+border-image: url(:/prefix2/LCD_CS351/35_all/69.bmp);
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>IN/OUT</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="but_DOWN7">
+    <property name="geometry">
+     <rect>
+      <x>520</x>
+      <y>90</y>
+      <width>65</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 14pt &quot;Arial&quot;;
+border-image: url(:/prefix2/LCD_CS351/35_all/69.bmp);
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>IN/OUT</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="but_DOWN6">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>90</y>
+      <width>65</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 14pt &quot;Arial&quot;;
+border-image: url(:/prefix2/LCD_CS351/35_all/69.bmp);
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>IN/OUT</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="but_UP7">
+    <property name="geometry">
+     <rect>
+      <x>520</x>
+      <y>40</y>
+      <width>65</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 14pt &quot;Arial&quot;;
+border-image: url(:/prefix2/LCD_CS351/35_all/69.bmp);
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>IN/OUT</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="iobox_writeData">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>0</y>
+      <width>181</width>
+      <height>26</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>0</y>
+      <width>31</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>串口</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>0</y>
+      <width>91</width>
+      <height>26</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="but_sendiobox">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>0</y>
+      <width>51</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>send</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="iobox_readData">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>0</y>
+      <width>181</width>
+      <height>26</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>10</y>
+     <width>201</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-width:1px; 
+border-style:solid; 
+border-color:rgb(51, 153, 255); 
+margin-top: 0ex;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="but_connectiobox">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>470</y>
+     <width>80</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>连接远程IO</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="raBut_m">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>470</y>
+     <width>71</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>手动发送</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="raBut_a">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>470</y>
+     <width>71</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>循环发送</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>470</y>
+     <width>51</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>循环时间</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="iobox_cycle">
+   <property name="geometry">
+    <rect>
+     <x>460</x>
+     <y>470</y>
+     <width>61</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="but_closeiobox">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>470</y>
+     <width>80</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>关闭远程IO</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
